@@ -1,0 +1,10 @@
+^D:\GIT\SECONDSEM_SECLAB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GIT/secondSem_secLab -BD:/GIT/secondSem_secLab --check-stamp-file D:/GIT/secondSem_secLab/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

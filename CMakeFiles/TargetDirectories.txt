@@ -1,0 +1,3 @@
+D:/GIT/secondSem_secLab/CMakeFiles/SecondLab.dir
+D:/GIT/secondSem_secLab/CMakeFiles/ALL_BUILD.dir
+D:/GIT/secondSem_secLab/CMakeFiles/ZERO_CHECK.dir
